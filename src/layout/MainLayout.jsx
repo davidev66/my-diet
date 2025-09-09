@@ -4,18 +4,18 @@ import Footer from '../components/footer/Footer';
 
 const MainLayout = () => {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       {/* Render TopBar in every page */}
       <TopBar />
 
       {/* Render children pages */}
-      <main>
+      <main className="flex flex-1 bg-gray-100 p-2">
         <Outlet />
       </main>
 
       {/* Render Footer in every page */}
       <Footer />
-    </>
+    </div>
   );
 };
 

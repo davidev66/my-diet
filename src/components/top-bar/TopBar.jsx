@@ -1,9 +1,9 @@
 import { useState } from 'react';
+import clsx from 'clsx';
 import { NavLink } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaUser } from 'react-icons/fa';
 import { FaCalculator } from 'react-icons/fa6';
 import { FcPlanner } from 'react-icons/fc';
-import clsx from 'clsx';
 
 const TopBar = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +16,7 @@ const TopBar = () => {
   };
 
   return (
-    <header className="bg-slate-900 text-white">
+    <header className="bg-slate-900 text-white w-screen">
       <div className="mx-auto max-w-6xl px-4">
         {/* Top bar: logo | centered menu (desktop) | hamburger (mobile) */}
         <div className="relative grid grid-cols-[auto_1fr_auto] items-center h-14">
