@@ -9,8 +9,10 @@ const MainLayout = () => {
       <TopBar />
 
       {/* Render children pages */}
-      <main className="flex flex-1 bg-gray-100 p-2">
-        <Outlet />
+      <main className="flex flex-1 bg-gray-100">
+        <div className="w-full min-h-80">
+          <Outlet />
+        </div>
       </main>
 
       {/* Render Footer in every page */}

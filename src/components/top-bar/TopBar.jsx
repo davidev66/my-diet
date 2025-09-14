@@ -16,7 +16,7 @@ const TopBar = () => {
   };
 
   return (
-    <header className="bg-slate-900 text-white w-screen">
+    <header className="bg-slate-900 text-white w-full">
       <div className="mx-auto max-w-6xl px-4">
         {/* Top bar: logo | centered menu (desktop) | hamburger (mobile) */}
         <div className="relative grid grid-cols-[auto_1fr_auto] items-center h-14">
