@@ -1,5 +1,5 @@
 const Planner = () => {
-  return <div>Planner</div>;
+  return <h1>planner</h1>;
 };
 
 export default Planner;

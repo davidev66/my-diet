@@ -1,5 +1,11 @@
+import FormCalculator from '../components/form-calculator/FormCalculator';
+
 const Calculator = () => {
-  return <div>Calculator</div>;
+  return (
+    <>
+      <FormCalculator />
+    </>
+  );
 };
 
 export default Calculator;
