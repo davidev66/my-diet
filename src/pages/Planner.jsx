@@ -1,5 +1,7 @@
+import FormPlanner from '../components/form-planner/FormPlanner';
+
 const Planner = () => {
-  return <h1>planner</h1>;
+  return <FormPlanner />;
 };
 
 export default Planner;
